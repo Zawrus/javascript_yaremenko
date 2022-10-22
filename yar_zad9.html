@@ -1,0 +1,24 @@
+<html>
+<body>
+    <title>Zadanie 8</title>
+<div style="color:red;font-size:39px;">
+ <script language="JavaScript">
+var liczba1=prompt("dzien_1=","");
+var liczba2=prompt("godzina_1=","");
+var liczba3=prompt("dzien_2=","");
+var liczba4=prompt("godzina_2=","");
+var ile_sekund_yar;
+ var D1_yar=parseFloat(liczba1);
+ var G1_yar=parseFloat(liczba2);
+ var D2_yar=parseFloat(liczba3);
+ var G2_yar=parseFloat(liczba4);
+ile_sekund_yar=D1_yar*24*3600+G1_yar*3600-D2_yar*24*3600-G2_yar*3600;
+document.write("D1="+D1_yar+"<br>");
+document.write("G1="+G1_yar+"<br>");
+document.write("D2="+D2_yar+"<br>");
+document.write("G2="+G2_yar+"<br>");
+ document.write("ilosc sekund="+ile_sekund_yar+" sekund"+"<br>");
+ </script>
+</div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <title>Zad 1 kod</title>
+ </head>
+<body>
+    <hr>
+   <h3>Plik:index.html</h3> 
+<div>
+    <pre>
+        &lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Strona&lt;/title&gt;
+&lt;script language="JavaScript"&gt;
+function WinOpen_yaremenko()
+{
+window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+}
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;form&gt;
+&lt;input type="button" name="przycisk" value="Nowa strona" onclick="WinOpen_yaremenko('')"&gt;
+&lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+    </pre>
+    <hr>
+</div>
+<h3>Plik:obraz.html</h3>
+<div>
+<pre>
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;script type="text/javascript"&gt;
+    function okno_zamknij_yaremenko()
+    {
+    window.close()
+    }
+    &lt;/script&gt;
+    &lt;title&gt;Zadanie 1&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;style&gt;
+    p{
+    font-size:0.5cm;
+    }
+    &lt;/style&gt;
+    &lt;body&gt;
+    &lt;h1&gt;Zadanie 1 &lt;/h1&gt;
+    &lt;h3&gt;-Kiedy powstala &lt;/h3&gt;&lt;br&gt;
+    &lt;h4&gt;Jezyk JavaScript zostal opracowany w 1995 roku przez przedsiebiorstwo &lt;br&gt;
+     Netscape Corporation oraz Sun Microsystem specjalnie w celu  &lt;br&gt;
+    uzycia go przy tworzeniu stron WWW. &lt;/h4&gt;&lt;br&gt;
+    &lt;h3&gt;-Dlaczego jest to jezyk skryptowy &lt;/h3&gt; &lt;br&gt;
+    &lt;h4&gt;JavaScript to obiektowy jezyk skryptowy, kiedy Java to obiektowy jezyk programowania.&lt;br&gt;
+     Dodatkowo zarowno jeden, jak i drugi jezyk wymaga instalowania odpowiednich wtyczek. &lt;br&gt;
+     Dlatego poczatki z JavaScript to takze troche wiedzy teoretycznej.&lt;/h4&gt; &lt;br&gt;
+    &lt;h3&gt;-Gdzie jest wykonywany JS (klient lub serwer) &lt;/h3&gt; &lt;br&gt;
+    &lt;h4&gt;JavaScript jest uzywany najczeciej przy tworzeniu stron www, zapewniajac ich &lt;br&gt;
+     interaktywnosc oraz obsluga zdarzen, walidacja formularzy czy budowanie elementow &lt;br&gt;
+     nawigacyjnych. Ale w tym jezyku mozna takze pisac pelnoprawne aplikacje &lt;br&gt;
+     (korzystajac z frameworkow do budowania aplikacji)&lt;/h4&gt; &lt;br&gt;
+    &lt;h3&gt;-Dlaczego jest to bezpieczne narzedzie &lt;/h3&gt; &lt;br&gt;
+    &lt;h4&gt;JS, podobnie jak inne jezyki i srodowiska, jest bezpieczny, gdy projekty &lt;br&gt;
+     w nim budowane sa traktowane z odpowiednia dbaloncia i zastosowaniem &lt;br&gt;
+    najlepszych praktyk.&lt;/h4&gt; &lt;br&gt;
+    &lt;h3&gt;-Czy jest to jezyk obiektowy , jezli tak to dlaczego. &lt;/h3&gt; &lt;br&gt;
+    &lt;h4&gt;Java to obiektowy jezyk programowania, a JavaScript to obiektowy jezyk skryptowy. &lt;br&gt;
+     Aplikacje w jezyku Java dzialaja w maszynie wirtualnej lub w przegladarce, &lt;br&gt;
+     a kod JavaScript jest uruchamiany wylacznie w przegladarkach. &lt;/h4&gt;&lt;br&gt;
+    &lt;h4&gt;&lsaquo;input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen(' ')"&rsaquo;&lt;/h4&gt; &lt;br&gt;
+    Element formularza ma rodzaj "button", nazywa sie przycisk i jego wartosc "Nowa Strona". &lt;br&gt;
+    window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200"); &lt;br&gt;
+    &lt;p&gt;Standardowa konstrukcja otwierajaca okno ma url "obraz.html",strona nazywa sie "okienko" i ma kilka ustawien: &lt;br&gt;
+    -toolbar=no(ukrywa standardowy pasek narzedzi); &lt;br&gt;
+    -directories=no(ukrywa przyciski katalogow);&lt;br&gt;
+    -menubar=no(ukrywa menu przegladarki);&lt;br&gt;
+    -height=280(wysokosc okna);&lt;br&gt;
+    -width=160(szerokosc okna);&lt;br&gt;
+    -top=200(polozenie okna wzgledem gory ekranu);&lt;br&gt;
+    -left=200(polozenie okna wzgledem lewej strony ekranu).&lt;br&gt;
+    &lt;/p&gt;
+    &lt;h2&gt;Motyl&lt;/h2&gt;
+    &lt;img src="obraz1.gif" /&gt; &lt;br&gt;
+    &lt;input type="button" value="zamknij okno" onclick="okno_zamknij_yaremenko()"/&gt; &lt;br&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+    <hr> 
+</pre>
+</div>
+</body>
+</html>
